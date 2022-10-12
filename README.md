@@ -4,7 +4,7 @@
 https://denisa-iordache.github.io/Site-vizualizare-date-SV-PIB-PO/
 
 ## Tehnologii folosite
- Am folosit în realizarea aplicației HTML, CSS, JavaScript, toate graficele și tabelele fiind implementate manual, fară a utiliza biblioteci destinate în acest sens.<br />
+ Am folosit în realizarea aplicației HTML, CSS, Bootstrap, JavaScript, toate graficele și tabelele fiind implementate manual, fară a utiliza biblioteci destinate în acest sens.<br />
 
 ## Funcționalitățile aplicației
  Prezenta aplicație are ca scop reprezentarea vizuală a unui set de date ce conține informații referitoare la țările Uniunii Europene pentru anii 2000-2018, despre indicatorii:<br />
