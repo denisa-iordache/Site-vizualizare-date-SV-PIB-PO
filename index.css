@@ -1,0 +1,81 @@
+.bar {
+  /* barele din graficul cu bare vor ave culoarea albastru, cu conturul galben de 2px*/
+  stroke-width: 2px;
+  stroke: yellow;
+}
+
+.bar:hover {
+  /* la pozitionarea mouse-ului pe o bara aceasta isi va schimba culoarea in galben */
+  fill: yellow;
+}
+
+.table td,
+th {
+  /* continutul tabelului va fi aliniat central */
+  text-align: center;
+}
+
+#titlu {
+  /* div-ul care contine titlul are culoare de fundal */
+  background-color: aliceblue;
+}
+
+h4,
+h6,
+h1 {
+  /*textul din elementele h va fi scris cu bold italic TNR*/
+  font-style: italic;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+p {
+  /*textul din paragrafe va fi scris cu fontul TNR*/
+  font-family: "Times New Roman", Times, serif;
+}
+
+#yLabel {
+  transform: rotate(
+    180deg
+  ); /*cele 2 linii sunt pentru a roti div-ul spre stanga */
+  writing-mode: vertical-lr;
+  text-align: center; /*centrez textul*/
+  display: inline; /*aliniez inline pentru a fi paralel cu canvas-ul*/
+  width: 20px;
+  height: 400px; /*va avea inaltimea egala cu cea a graficului cu bule*/
+}
+
+#xLabel {
+  width: 660px; /*va avea latimea mai mare decat a canvas-ului deoarece acest div pleaca de unde incepe div-ul yLabel, astfel ca pentru a centra textul in raport cu canvasul adaug la latime*/
+  text-align: center; /*centrez textul*/
+  height: 20px;
+}
+
+#divLegenda {
+  border: solid;
+  text-align: justify;
+  width: fit-content; /*pun fit content pentru ca bordura div-ului sa se deseneze in functie de continutul din el*/
+  height: fit-content;
+  margin-left: 10px; /*am spatiu de 10px intre grafic si legenda*/
+  min-width: 275px; /*pentru a nu influenta xLabel*/
+}
+
+#continutBubbleChart,
+#continutBarChart {
+  /* div-urile ce contin yLabel, graficul si legenda vor afisa intreg continutul pe o singura linie */
+  display: flex;
+  flex-direction: row;
+}
+
+#ulLegenda {
+  padding-right: 10px; /*pentru a ramane spatiu intre ul si bordura div-ului*/
+  padding-bottom: 5px;
+}
+
+#pLegenda {
+  /*definesc felul cum va arata paragraful legenda*/
+  font-style: italic;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 10px;
+}
