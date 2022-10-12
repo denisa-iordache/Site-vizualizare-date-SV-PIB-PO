@@ -1,4 +1,8 @@
 # Site-vizualizare-date-SV-PIB-PO
+
+# Link site
+https://denisa-iordache.github.io/Site-vizualizare-date-SV-PIB-PO/
+
 # Tehnologii folosite
  Am folosit în realizarea aplicației HTML, CSS, JavaScript, toate graficele și tabelele fiind implementate manual, fară a utiliza biblioteci destinate în acest sens.<br />
 
